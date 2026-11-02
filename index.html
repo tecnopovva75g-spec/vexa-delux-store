@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090510">
+<title>RIZZ XTER — Digital Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#"><span>RIZZ</span><b>XTER</b></a><a class="owner-link" href="https://wa.me/6282123752905" target="_blank" rel="noopener">Hubungi Owner</a></header>
+<section class="vexa-ad-slider" aria-label="Banner benefit RIZZ XTER">
+  <div class="vexa-ad-track">
+    <a class="vexa-ad-slide is-active" href="#produk" aria-label="Benefit APK Tools Vexa Delux"><img src="banner-vexa-delux.jpg" alt="Benefit APK Tools Vexa Delux"></a>
+    <a class="vexa-ad-slide vexa-ad-slide-alt" href="#produk" aria-label="Lihat pilihan APK dan paket key">
+      <span class="vexa-ad-kicker">✦ RIZZ XTER STORE ✦</span><strong>APK + BUY KEY</strong>
+      <span class="vexa-ad-sub">Pilih layanan • Lihat paket • Konfirmasi melalui WhatsApp</span>
+    </a>
+  </div>
+  <button class="vexa-ad-arrow vexa-ad-prev" type="button" aria-label="Banner sebelumnya">‹</button>
+  <button class="vexa-ad-arrow vexa-ad-next" type="button" aria-label="Banner berikutnya">›</button>
+  <div class="vexa-ad-dots" aria-label="Pilih banner"><button class="is-active" type="button" aria-label="Banner 1"></button><button type="button" aria-label="Banner 2"></button></div>
+</section>
+<main>
+<section class="hero"><div class="eyebrow">DIGITAL PRODUCT STORE</div><h1>RIZZ <em>XTER</em></h1><p>Pilih APK atau pesan key dengan proses konfirmasi melalui WhatsApp.</p><a class="primary-btn" href="#produk">Lihat Pilihan ↘</a><div class="hero-mark">RX</div></section>
+<section class="notice"><strong>Belanja aman</strong><span>Pesanan diproses manual. Key dikirim setelah pembayaran diperiksa admin.</span></section>
+<section id="produk" class="section"><div class="section-heading"><div><div class="eyebrow">PILIH LAYANAN</div><h2>APK + <em>BUY KEY</em></h2></div><span class="live-dot">STORE</span></div><div id="product-grid" class="product-grid"></div></section>
+<section class="section how"><div class="eyebrow">CARA PEMESANAN</div><h2>3 langkah <em>mudah</em></h2><div class="steps"><article><b>01</b><h3>Pilih paket</h3><p>Pilih masa key yang tersedia.</p></article><article><b>02</b><h3>Bayar via QRIS</h3><p>Scan QRIS dan bayar sesuai total pesanan.</p></article><article><b>03</b><h3>Kirim bukti</h3><p>WhatsApp admin akan terbuka. Lampirkan bukti transaksi di chat tersebut.</p></article></div></section>
+<section id="kontak" class="contact"><div><div class="eyebrow">BUTUH BANTUAN?</div><h2>Hubungi <em>Owner</em></h2><p>Konfirmasi pesanan melalui WhatsApp resmi toko.</p></div><a class="outline-btn" href="https://wa.me/6282123752905" target="_blank" rel="noopener">WhatsApp Owner ↗</a></section>
+</main>
+<footer><span>© <span id="year"></span> RIZZ XTER</span><span>DIGITAL STORE</span></footer>
+<dialog id="order-dialog"><form id="order-form">
+<button class="close" id="order-close" type="button" aria-label="Tutup">×</button>
+<div class="eyebrow">BUAT PESANAN</div><h2 id="dialog-title">BUY KEY</h2>
+<p id="dialog-description" class="muted">Pilih paket key yang tersedia.</p>
+<label for="duration">Pilih paket</label>
+<select id="duration" required><option value="" selected disabled>Memuat daftar paket...</option></select>
+<p class="total-line">Total: <strong id="order-total">Rp0</strong></p>
+<label for="buyer-name">Nama pemesan</label><input id="buyer-name" type="text" maxlength="60" placeholder="Nama kamu" required>
+<label for="buyer-whatsapp">Nomor WhatsApp</label><input id="buyer-whatsapp" type="tel" inputmode="tel" maxlength="20" placeholder="08xxxxxxxxxx" required>
+<label for="buyer-email">Email penerima lisensi</label><input id="buyer-email" type="email" maxlength="100" placeholder="nama@email.com" required>
+<div class="qris-panel"><h3>PEMBAYARAN QRIS</h3><p>Scan QR di bawah dengan aplikasi pembayaran yang mendukung QRIS. Pastikan nama merchant sesuai sebelum membayar.</p><img class="qris-image" src="qris-voc-rizz.jpg" alt="QRIS VOC Rizz, Komputer"><p class="payment-note">Setelah pembayaran berhasil, tekan tombol di bawah untuk membuka WhatsApp admin. Kirim screenshot bukti transaksi di chat tersebut.</p></div>
+<button class="primary-btn full" type="submit">Lanjutkan ke WhatsApp & Kirim Bukti ↗</button>
+</form></dialog>
+<script src="app.js"></script><script src="banner-slider.js"></script>
+</body></html>
