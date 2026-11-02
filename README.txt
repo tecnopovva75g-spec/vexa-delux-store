@@ -1,19 +1,15 @@
-RIZZ XTER — FILE WEBSITE PERBAIKAN
+VEXA DELUX WEBSITE
 
-Isi:
+Upload these files to the ROOT of the new GitHub repository vexa-delux-store:
 - index.html
 - style.css
 - app.js
-- banner-slider.js
-- banner-vexa-delux.jpg
 - qris-voc-rizz.jpg
+- vexa-hero-art.webp
 
-Perbaikan:
-1. Kartu DOWNLOAD APK dan BUY KEY tampil sebagai dua pilihan utama.
-2. Tombol BELI KEY mengisi daftar paket secara langsung: 1 Hari, 2 Hari, 3 Hari, 5 Hari, 7 Hari, 1 Bulan, Permanen.
-3. Total harga diperbarui sesuai paket yang dipilih.
-4. Banner benefit berganti otomatis setiap 5 detik dan dapat digeser dengan tombol panah.
-5. QRIS dan konfirmasi WhatsApp tetap disertakan.
+Keep all files together in the repository root. Vercel preset: Other; Root Directory: ./
 
-Cara pakai:
-Unggah semua isi ZIP ini ke root repositori rizz-xter-store dan pilih Replace untuk file yang namanya sama. Jangan mengunggah folder pembungkus ZIP; unggah file-file di dalamnya. Setelah itu Commit changes.
+The Download buttons open the supplied MediaFire URL.
+Buy Key uses manual QRIS. After the buyer fills in their details, WhatsApp opens with an order message. The buyer must attach their payment screenshot manually. The owner must verify payment and issue the key manually. No automatic payment verification or key delivery is implemented.
+
+Before publishing, confirm that qris-voc-rizz.jpg is the correct QRIS image and that the payment recipient/merchant shown by the QRIS is yours.
